@@ -84,3 +84,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Configuration
+
+In file `public/config.js` there are constants that are targetting particular microservices that run on the machine.
+It is highly likely that local machine will use a different ports for each microservice and it is recommended to be updated in this file accordingly to actual addresses and ports.
